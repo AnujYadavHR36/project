@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>complain form</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+
+<body >
+<h1> COMPLAIN FORM</h1>
+
+<div id="outerbox">
+    <form id="form">
+    <label for="name">NAME:</label>
+    <input type="text" id="name" placeholder="Enter Your Name" name="name" required>
+<br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your personal email" required>
+<br>
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" placeholder="Enter your short subject" required>
+<br>
+    <label for="complaintmessage">Complaint Message:</label>
+    <textarea id="complaint" name="complaint" rows="4" required></textarea>
+<br>
+    <button type="submit">Submit Complain</button>
+
+</form>
+<div id="responsemessage" class="response-message"></div>
+</div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
